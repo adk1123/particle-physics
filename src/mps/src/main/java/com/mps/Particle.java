@@ -18,6 +18,12 @@ public class Particle {
 
     public float[] getPosition(){return this.position;}
 
+    public void setPosition(float[] newPos){
+
+        this.position = newPos;
+
+    }
+
     @Override
     public String toString(){return this.mass + ": " + Arrays.toString(position);}
     
