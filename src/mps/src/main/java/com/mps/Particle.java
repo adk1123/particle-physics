@@ -1,4 +1,4 @@
-package main.java.com.mps;
+package com.mps;
 
 import java.util.Arrays;
 
